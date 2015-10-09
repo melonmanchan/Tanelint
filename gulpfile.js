@@ -1,4 +1,5 @@
 'use strict';
+var del = require('del');
 var gulp = require('gulp');
 var eslint = require('gulp-eslint');
 var excludeGitignore = require('gulp-exclude-gitignore');
@@ -49,11 +50,15 @@ gulp.task('test', ['pre-test'], function (cb) {
     });
 });
 
-gulp.task('babel', function () {
+gulp.task('clean', function() {
+  return del('dist');
+});
+
+gulp.task('babel', ['clean'], function () {
   return gulp.src('lib/**/*.js')
     .pipe(babel())
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('prepublish', ['nsp', 'babel']);
+gulp.task('prepublish', ['nsp', 'clean', 'babel']);
 gulp.task('default', ['static', 'test']);
