@@ -36,5 +36,10 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "git-blame": "^0.1.1",
+    "stringify-object": "^2.3.0"
+  }
 }
