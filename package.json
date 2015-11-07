@@ -40,6 +40,8 @@
   "dependencies": {
     "chalk": "^1.1.1",
     "git-blame": "^0.1.1",
+    "jshint": "^2.8.0",
+    "lodash": "^3.10.1",
     "stringify-object": "^2.3.0",
     "yargs": "^3.27.0"
   }
