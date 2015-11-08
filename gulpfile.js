@@ -1,11 +1,10 @@
 'use strict';
-var del = require('del');
-var gulp = require('gulp');
-var eslint = require('gulp-eslint');
+var del              = require('del');
+var gulp             = require('gulp');
+var eslint           = require('gulp-eslint');
 var excludeGitignore = require('gulp-exclude-gitignore');
-var nsp = require('gulp-nsp');
-var plumber = require('gulp-plumber');
-var babel = require('gulp-babel');
+var plumber          = require('gulp-plumber');
+var babel            = require('gulp-babel');
 
 // Initialize the babel transpiler so ES2015 files gets compiled
 // when they're loaded
@@ -17,10 +16,6 @@ gulp.task('static', function () {
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError());
-});
-
-gulp.task('nsp', function (cb) {
-  nsp('package.json', cb);
 });
 
 gulp.task('clean', function() {
