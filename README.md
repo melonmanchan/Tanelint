@@ -1,5 +1,5 @@
 # Tanelint
-
+> Git blame + JSHint in your command line.
 ## Install
 
 ```sh
