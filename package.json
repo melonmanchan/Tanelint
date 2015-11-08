@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Git blame + JSHint in your command line",
   "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:melonmanchan/Tanelint.git"
+  },
   "author": {
     "name": "Matti Jokitulppo",
     "email": "melonmanchan@gmail.com",
