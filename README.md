@@ -18,6 +18,15 @@ tanelint lib/index.js => Contributor Matti Jokitulpppo made 19 errors!
 
 ![](http://i.imgur.com/ImphX41.png)
 
+### Arguments
+|  Flag  | Purpose |
+| ------------- | ------------- |
+| -f  | File to lint  |
+| -r  | Git repository location  |
+| -c  | JSHint config file location  |
+
+
+
 ## License
 
 MIT © [Matti Jokitulppo](http://mattij.com)
