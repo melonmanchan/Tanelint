@@ -8,6 +8,9 @@
     "type": "git",
     "url": "git@github.com:melonmanchan/Tanelint.git"
   },
+  "bin": {
+  "tanelint": "dist/index.js"
+  },
   "author": {
     "name": "Matti Jokitulppo",
     "email": "melonmanchan@gmail.com",
