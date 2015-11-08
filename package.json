@@ -1,6 +1,6 @@
 {
   "name": "tanelint",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Git blame + JSHint in your command line",
   "homepage": "",
   "preferGlobal": true,
