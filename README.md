@@ -32,4 +32,4 @@ tanelint lib/index.js => Contributor Matti Jokitulpppo made 19 errors!
 MIT © [Matti Jokitulppo](http://mattij.com)
 
 
-[npm-url]: https://npmjs.org/package/tanelint
+[![npm version](https://badge.fury.io/js/tanelint.svg)](https://badge.fury.io/js/tanelint)
