@@ -39,6 +39,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.1",
+    "find-up": "^1.0.0",
     "git-blame": "^0.1.1",
     "jshint": "^2.8.0",
     "lodash": "^3.10.1",
