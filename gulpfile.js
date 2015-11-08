@@ -26,30 +26,6 @@ gulp.task('nsp', function (cb) {
   nsp('package.json', cb);
 });
 
-gulp.task('pre-test', function () {
-  return gulp.src('lib/**/*.js')
-    .pipe(istanbul({
-      includeUntested: true
-,      instrumenter: isparta.Instrumenter
-    }))
-    .pipe(istanbul.hookRequire());
-});
-
-gulp.task('test', ['pre-test'], function (cb) {
-  var mochaErr;
-
-  gulp.src('test/**/*.js')
-    .pipe(plumber())
-    .pipe(mocha({reporter: 'spec'}))
-    .on('error', function (err) {
-      mochaErr = err;
-    })
-    .pipe(istanbul.writeReports())
-    .on('end', function () {
-      cb(mochaErr);
-    });
-});
-
 gulp.task('clean', function() {
   return del('dist');
 });

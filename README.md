@@ -1,20 +1,18 @@
-# tanelint [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Git blame + JSHint
+# Tanelint [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+> Git blame + JSHint in your command line.
 
 
 ## Install
 
 ```sh
-$ npm install --save tanelint
+$ npm install -g tanelint
 ```
 
 
 ## Usage
 
-```js
-var tanelint = require('tanelint');
-
-tanelint('Rainbow');
+```sh
+tanelint -f lib/index.js => Contributor Matti Jokitulpppo made 19 errors!
 ```
 
 ## License
@@ -22,9 +20,4 @@ tanelint('Rainbow');
 MIT © [Matti Jokitulppo](http://mattij.com)
 
 
-[npm-image]: https://badge.fury.io/js/tanelint.svg
 [npm-url]: https://npmjs.org/package/tanelint
-[travis-image]: https://travis-ci.org//tanelint.svg?branch=master
-[travis-url]: https://travis-ci.org//tanelint
-[daviddm-image]: https://david-dm.org//tanelint.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//tanelint

@@ -1,7 +1,7 @@
 {
   "name": "tanelint",
-  "version": "0.0.0",
-  "description": "Git blame + JSHint",
+  "version": "0.1.0",
+  "description": "Git blame + JSHint in your command line",
   "homepage": "",
   "author": {
     "name": "Matti Jokitulppo",
@@ -26,11 +26,8 @@
     "gulp-babel": "^5.1.0",
     "gulp-eslint": "^1.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-istanbul": "^0.9.0",
-    "gulp-mocha": "^2.0.0",
     "gulp-nsp": "^0.4.5",
     "gulp-plumber": "^1.0.0",
-    "isparta": "^3.0.3"
   },
   "scripts": {
     "prepublish": "gulp prepublish",
@@ -43,7 +40,6 @@
     "git-blame": "^0.1.1",
     "jshint": "^2.8.0",
     "lodash": "^3.10.1",
-    "stringify-object": "^2.3.0",
     "yargs": "^3.27.0"
   }
 }
