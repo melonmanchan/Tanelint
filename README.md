@@ -1,9 +1,4 @@
-# Tanelint 
-
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Git blame + JSHint in your command line.
-
-
+# tanelint [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 ## Install
 
 ```sh
