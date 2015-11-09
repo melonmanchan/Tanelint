@@ -33,3 +33,5 @@ MIT © [Matti Jokitulppo](http://mattij.com)
 
 
 [![npm version](https://badge.fury.io/js/tanelint.svg)](https://badge.fury.io/js/tanelint)
+[![npm downloads](https://img.shields.io/npm/dm/tanelint.svg)](https://img.shields.io/npm/dm/tanelint.svg)
+
